@@ -1,0 +1,243 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "font01";
+  src: url(../font/fonts/fontawesome-webfont.woff2);
+}
+body {
+  background: rgb(34, 34, 34);
+}
+img {
+  width: 100%;
+  height: 230px;
+}
+/* HEADER */
+.header {
+  background: #fff;
+  width: 85%;
+  padding: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.header div {
+  line-height: 35px;
+}
+.header div > h2 {
+  font-size: 2em;
+
+  font-family: "font01" Arial, Helvetica, sans-serif;
+  color: rgb(83, 83, 83);
+  text-shadow: 1px 1px rgb(83, 83, 83);
+}
+.header div > p {
+  color: rgb(83, 83, 83);
+  font-weight: bold;
+  text-indent: 18px;
+  font-size: 18px;
+  text-shadow: 1px 1px rgb(83, 83, 83);
+}
+.redes-socias {
+  margin-right: -10px;
+}
+.redes-socias > span {
+  margin-right: 5px;
+  background: rgb(196, 193, 193);
+  padding: 7px 10px;
+}
+.face,
+.you,
+.twi,
+.link,
+.goo {
+  font-weight: bolder;
+  color: rgb(88, 86, 86);
+  text-shadow: 1px 1px rgb(83, 83, 83);
+}
+.primera-lista ul {
+  display: flex;
+  margin-left: 90px;
+}
+
+.primera-lista li {
+  padding: 10px;
+}
+.primera-lista li a {
+  color: rgb(204, 202, 202);
+  padding: 10px;
+}
+.primera-lista li:hover {
+  background: #000;
+}
+/* ESTRUTURA */
+.estrutura {
+  max-width: 920px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  background: rgb(230, 230, 230);
+  margin: 0px auto;
+  padding: 20px;
+  grid-gap: 7px;
+}
+.estrutura > div {
+  padding: 20px;
+  background: #fff;
+  /* justify-content: center;
+  align-content: center; */
+}
+.primeira,
+.segunda {
+  max-height: auto;
+}
+.quarta,
+.quinta {
+  height: auto;
+}
+
+.caixa p:nth-child(2) {
+  color: rgb(146, 143, 143);
+  font-size: 27px;
+  text-align: center;
+  font-family: "font01" "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-weight: bolder;
+  text-shadow: 1px 1px rgb(83, 83, 83);
+}
+.caixa p:nth-child(3) {
+  text-shadow: 1px 1px rgb(83, 83, 83);
+  padding: 10px;
+}
+.caixa p:nth-child(4) {
+  padding: 10px;
+  line-height: 20px;
+}
+/* VALOR GERAL PRA O BUTÃO*/
+.butao {
+  display: block;
+  padding: 7px;
+  background: red;
+  color: #fff;
+  width: 110px;
+  margin: 10px 6px;
+  transition: 1s ease-in-out;
+  border: none;
+}
+.butao:hover {
+  background: rgba(68, 68, 68, 0.87);
+  /* opacity: 0.85; */
+}
+.caixa div {
+  display: flex;
+
+  color: rgb(146, 143, 143);
+  align-items: center;
+  margin: 5px;
+}
+.caixa > div p {
+  font-size: 1em !important;
+  text-shadow: none !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.caixa div span {
+  margin-right: 10px;
+}
+.terceira p:first-child {
+  text-shadow: 1px 1px rgb(83, 83, 83);
+  font-family: "font01" Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: -25px;
+}
+.sexta p:first-child {
+  text-shadow: 1px 1px rgb(83, 83, 83);
+  font-family: "font01" Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: -25px;
+}
+.segunda-lista {
+  display: flex;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+.foto-pequena {
+  max-width: 210px;
+  max-height: 85px;
+}
+.foto-pequena2 {
+  max-width: 120px;
+  max-height: 100px;
+}
+
+.segunda-lista li {
+  background: red;
+  padding: 5px;
+}
+.segunda-lista li + li {
+  margin-left: 5px;
+}
+.segunda-lista li a {
+  color: #fff;
+  /* padding: 5px; */
+}
+.terceira div {
+  display: flex;
+  align-items: center;
+}
+.terceira p:nth-child(n + 2) {
+  color: rgb(221, 5, 5);
+  font-family: "font01" Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px rgb(83, 83, 83);
+  font-size: 20px;
+}
+.sexta p:nth-child(n + 2) {
+  color: rgb(221, 5, 5);
+  font-family: "font01" Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px rgb(83, 83, 83);
+  font-size: 20px;
+}
+.terceira p:nth-child(2) {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.terceira span {
+  color: rgb(160, 156, 156);
+  font-weight: bold;
+}
+.span0 {
+  margin-bottom: 300px;
+}
+.span1 {
+  margin-left: 130px;
+}
+.sexta span {
+  color: rgb(160, 156, 156);
+  font-weight: bold;
+}
+
+.p {
+  margin-top: -30px;
+}
+
+/* .grid1 img {
+  max-width: 120px;
+  max-height: 90px;
+}
+.grid2 img {
+  max-width: 120px;
+  max-height: 90px;
+}  */
+.sexta p:nth-child(2) {
+  text-align: left;
+  margin-left: 10px;
+}
+.sexta {
+  max-height: 50%;
+}
